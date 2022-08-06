@@ -1,0 +1,75 @@
+body{
+    background-image: url(alessandro-erbetta-mpWPcRT9D1E-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+/* @media only screen and (max-width: 1190px) {
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+} */
+.main{ 
+    background: rgba(0, 0, 1, 0.5);
+    margin-top:35vh;;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    max-width: 50vh;
+    max-height: 30vh;
+    border-radius: 20px;
+    align-content: space-around;
+}
+.search-box{
+    width: 48%;
+}
+.search-area{
+    width: 70%;
+}
+.weather{
+    width: 48%;
+    color: white;
+    display: block;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.search-area{
+    background: rgb(59 59 60 / 55%);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.search-btn{
+    background: rgb(59 59 60 / 55%);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.search-btn:hover{
+    background: rgba(159, 159, 160, 0.55);
+    transition-duration: 0.5s;
+    transition: ease-in-out;
+    cursor:pointer;
+}
+.History{
+    border-radius: 15px;
+    justify-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background: rgba(0,0,1,0.7);
+    margin-left: 0px;
+    margin-right: 100vh;
+}
